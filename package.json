@@ -1,0 +1,31 @@
+{
+  "name": "promise-agile_crm",
+  "description": "Bluebird promises wrapper for the Node JS Agile CRM client 'agile_crm'.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/SPEQit/promise-agile_crm#readme",
+  "author": "Chris Charabaruk <chris.charabaruk@northcloud.com> (http://www.northcloud.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SPEQit/promise-agile_crm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SPEQit/promise-agile_crm/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "crm",
+    "agilecrm",
+    "promise"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "agile_crm": "^1.2.3",
+    "bluebird": "^3.4.6"
+  }
+}
